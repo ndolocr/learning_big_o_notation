@@ -9,6 +9,8 @@ The growth of this algorithm is exponential, let’s say we have n=2 inputs, the
 
 In the example if the input parameter n is given the value of 10, then it will perform operations 2^10 
 times which is 1024 times.
+
+https://hackernoon.com/a-beginners-guide-to-the-big-o-notation-yb7332wf
 """
 
 from datetime import datetime

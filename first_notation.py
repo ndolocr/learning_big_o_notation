@@ -14,6 +14,8 @@ of the array is increased to 1,000 or let’s say a 100,000?
 Since we are just grabbing a single element inside the array, 
 no matter how big the array size gets, the time it takes always 
 remains constant or O(1).
+
+https://hackernoon.com/a-beginners-guide-to-the-big-o-notation-yb7332wf
 """
 from datetime import datetime
 

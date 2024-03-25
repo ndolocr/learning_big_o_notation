@@ -12,6 +12,8 @@ get our desired solution. If the array held 100 items, we would loop through the
 
 As the number of inputs increases, the number of operations increases linearly. We say that the code has the time complexity 
 of O(n) or It takes Linear Time to solve this problem. Here n simply means that the Big O depends on the number of inputs.
+
+https://hackernoon.com/a-beginners-guide-to-the-big-o-notation-yb7332wf
 """
 from datetime import datetime
 
