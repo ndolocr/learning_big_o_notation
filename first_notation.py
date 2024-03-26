@@ -14,6 +14,8 @@ of the array is increased to 1,000 or let’s say a 100,000?
 Since we are just grabbing a single element inside the array, 
 no matter how big the array size gets, the time it takes always 
 remains constant or O(1).
+
+https://hackernoon.com/a-beginners-guide-to-the-big-o-notation-yb7332wf
 """
 from datetime import datetime
 
@@ -54,7 +56,9 @@ given_list = [1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8,9,10,1,2,3,
               2,3,4,5,6,7,8,9,2,3,4,5,6,7,8,9,2,3,4,5,6,7,8,9,2,3,4,5,6,7,8,9,2,3,4,5,6,7,8,9,2,3,4,5,6,7,8,9,8,8
               ]
 
-print(given_list[208])
+operations = 0
+print(given_list[30])
+print(f"Operation => {operations}")
 end_time=datetime.now()
 duration = end_time - start_time
 print(f"Duration taken is {duration}")

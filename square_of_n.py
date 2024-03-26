@@ -11,6 +11,8 @@ In the  example for every iteration of ‘i’(outer loop), we are performing n 
 of the inner loop and we are operating on the outer loop n times
 
 Or simply put we are performing a total i * j operations, or, as we are using the same input, n * n, or n^2
+
+https://hackernoon.com/a-beginners-guide-to-the-big-o-notation-yb7332wf
 """
 
 from datetime import datetime
